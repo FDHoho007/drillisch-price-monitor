@@ -42,5 +42,5 @@ if lowest_price < MONITOR_PRICE or highest_volume > MONITOR_CURRENT_VOLUME:
                 f"New mobile provider found: {best_provider}\n"
                 f"Price: {lowest_price:.2f} € (previous: {MONITOR_PRICE:.2f} €)\n"
                 f"Data volume: {highest_volume} GB (previous: {MONITOR_CURRENT_VOLUME} GB)"
-            )
+            ).encode('utf-8')
         )
