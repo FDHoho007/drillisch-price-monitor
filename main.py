@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
 from config import MONITOR_PRICE, MONITOR_CURRENT_VOLUME, NTFY_HOST, NTFY_TOPIC, NTFY_USERNAME, NTFY_PASSWORD
 import requests
 from bs4 import BeautifulSoup
